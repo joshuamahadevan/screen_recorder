@@ -1,0 +1,39 @@
+*{
+    user-select: none;
+}
+
+button, a{
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin: 1rem;
+}
+video{
+    width: 90vw;
+    height: 90vh;
+}
+button{
+    background-color: rgb(96, 241, 91);
+    color: red;
+}
+a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+
+
+    background-color: tomato;
+    color: white;
+}
+
+body{
+    background: radial-gradient(circle, rgb(215, 154, 255) 0%, rgb(250, 152, 152) 50%, rgb(255, 213, 153) 100%);
+}
+
+#video-wrap{
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+}
